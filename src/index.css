@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-html {
+html {    
   scroll-behavior: smooth;
 }
 
@@ -674,6 +674,7 @@ nav a:hover {
 
 .mapEmbed iframe {
   position: absolute;
+  z-index: 1;
   inset: 0;
   width: 100%;
   height: 100%;
@@ -684,6 +685,7 @@ nav a:hover {
 .mapEmbed:after {
   content: '';
   position: absolute;
+  z-index: 2;
   inset: 0;
   pointer-events: none;
   box-shadow: inset 0 0 0 1px rgba(163, 230, 53, 0.18);
@@ -691,22 +693,33 @@ nav a:hover {
 
 .mapOpen {
   position: absolute;
-  z-index: 3;
+  z-index: 20;
   left: 28px;
   right: 28px;
   bottom: 28px;
   height: 54px;
   border-radius: 999px;
-  background: rgba(0, 0, 0, 0.72);
-  border: 1px solid rgba(163, 230, 53, 0.32);
-  color: #bef264;
+  background: rgba(0, 0, 0, 0.82);
+  border: 1px solid rgba(163, 230, 53, 0.42);
+  color: #bef264 !important;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 9px;
   font-weight: 950;
+  text-align: center;
   backdrop-filter: blur(14px);
+  pointer-events: auto;
 }
 
+.mapOpen strong {
+  color: #bef264;
+  font-weight: 950;
+}
+
+.mapOpen span {
+  color: #bef264;
+}
 .mapOpen:hover {
   background: rgba(0, 0, 0, 0.86);
   color: #d9f99d;
