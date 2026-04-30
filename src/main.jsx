@@ -631,8 +631,9 @@ function App() {
           />
 
           <a className="mapOpen" href={MAPS_URL} target="_blank" rel="noreferrer">
-            {t.mapButton}
-          </a>
+  <span>↗</span>
+  <strong>{t.mapButton}</strong>
+</a>
         </div>
       </section>
 
