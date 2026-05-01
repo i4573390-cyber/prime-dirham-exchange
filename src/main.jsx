@@ -38,6 +38,7 @@ const content = {
     amountLabel: 'Сумма',
     rateLabel: 'Ориентировочный курс',
     updateLabel: 'Обновить курс',
+    exactRateCta: 'Узнать точный курс',
     loadingRates: 'Загружаем курсы...',
     rateError:
       'Не удалось загрузить онлайн-курс. Напишите менеджеру для актуального курса.',
@@ -127,6 +128,7 @@ const content = {
     amountLabel: 'Amount',
     rateLabel: 'Indicative rate',
     updateLabel: 'Refresh rates',
+    exactRateCta: 'Get exact rate',
     loadingRates: 'Loading rates...',
     rateError: 'Could not load live rates. Contact the manager for the current rate.',
     finalRateNote:
@@ -215,6 +217,7 @@ const content = {
     amountLabel: 'المبلغ',
     rateLabel: 'السعر التقريبي',
     updateLabel: 'تحديث الأسعار',
+    exactRateCta: 'اعرف السعر الدقيق',
     loadingRates: 'جاري تحميل الأسعار...',
     rateError: 'تعذر تحميل الأسعار المباشرة. تواصل مع المدير للحصول على السعر الحالي.',
     finalRateNote:
@@ -437,9 +440,14 @@ function ExchangeCalculator({ t }) {
             </p>
           </div>
 
-          <button onClick={loadRates}>
-            {loading ? t.loadingRates : t.updateLabel}
-          </button>
+          <a
+            className="calcActionBtn"
+            href={TELEGRAM_URL}
+            target="_blank"
+            rel="noreferrer"
+          >
+            ↗ {t.exactRateCta}
+          </a>
         </div>
       </div>
     </section>
