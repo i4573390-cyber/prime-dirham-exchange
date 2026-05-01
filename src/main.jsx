@@ -12,6 +12,7 @@ const content = {
     navAbout: 'О нас',
     navCalc: 'Калькулятор',
     navBenefits: 'Преимущества',
+    navReviews: 'Отзывы',
     navContacts: 'Контакты',
 
     heroTitle: 'Prime Dirham Exchange',
@@ -45,22 +46,24 @@ const content = {
 
     benefitsTitle: 'Почему выбирают PDE',
     benefits: [
-      [
-        'Быстрое сопровождение',
-        'Оперативная связь с менеджером в Telegram и сопровождение до завершения сделки.',
-      ],
-      [
-        'Надёжный процесс',
-        'Условия обмена согласуются заранее до вашего визита в офис.',
-      ],
-      [
-        'Удобная локация',
-        'Офис в Al Habtoor Business Tower, Dubai Marina / JBR, 35 этаж.',
-      ],
-      [
-        'Персональный подход',
-        'Формат обслуживания подбирается под сумму, валюту и задачу клиента.',
-      ],
+      ['Быстрое сопровождение', 'Оперативная связь с менеджером в Telegram и сопровождение до завершения сделки.'],
+      ['Надёжный процесс', 'Условия обмена согласуются заранее до вашего визита в офис.'],
+      ['Удобная локация', 'Офис в Al Habtoor Business Tower, Dubai Marina / JBR, 35 этаж.'],
+      ['Персональный подход', 'Формат обслуживания подбирается под сумму, валюту и задачу клиента.'],
+    ],
+
+    reviewsTitle: 'Отзывы клиентов',
+    reviewsText:
+      'Клиенты выбирают Prime Dirham Exchange за скорость, понятные условия и персональное сопровождение.',
+    reviewClientLabel: 'клиент Prime Dirham Exchange',
+    reviews: [
+      ['Алексей', 'Обменивал USDT на дирхамы. Всё заранее согласовали в Telegram, курс подтвердили до визита. В офисе всё прошло быстро и спокойно.'],
+      ['Марина', 'Удобная точка в Dubai Marina. Менеджер быстро ответил, объяснил условия и помог с деталями обмена.'],
+      ['Дмитрий', 'Нужно было поменять крипту на наличные дирхамы. Всё сделали аккуратно, без ожидания и лишней суеты.'],
+      ['Саид', 'Понравился понятный процесс: сначала согласовали сумму и курс, потом я приехал в офис и завершил обмен.'],
+      ['Омар', 'Быстрая связь в Telegram, удобный адрес и нормальный деловой подход. Хороший сервис для обмена в Дубае.'],
+      ['Джеймс', 'Сервис выглядит профессионально. Все условия подтвердили заранее, поэтому в офисе обмен прошёл без вопросов.'],
+      ['Майкл', 'Хорошее расположение рядом с Dubai Marina, быстрые ответы и понятные условия. Использовал бы снова.'],
     ],
 
     processTitle: 'Как проходит обмен',
@@ -73,15 +76,7 @@ const content = {
 
     hoursTitle: 'Часы работы',
     hoursNote: 'Работаем с понедельника по субботу. Воскресенье — выходной.',
-    days: [
-      'Понедельник',
-      'Вторник',
-      'Среда',
-      'Четверг',
-      'Пятница',
-      'Суббота',
-      'Воскресенье',
-    ],
+    days: ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
     closed: 'Выходной',
     openUntil: 'Открыто до 20:30',
 
@@ -106,6 +101,7 @@ const content = {
     navAbout: 'About',
     navCalc: 'Calculator',
     navBenefits: 'Benefits',
+    navReviews: 'Reviews',
     navContacts: 'Contacts',
 
     heroTitle: 'Prime Dirham Exchange',
@@ -138,22 +134,24 @@ const content = {
 
     benefitsTitle: 'Why clients choose PDE',
     benefits: [
-      [
-        'Fast communication',
-        'Quick Telegram contact with the manager and support until the deal is completed.',
-      ],
-      [
-        'Reliable process',
-        'Exchange terms are agreed in advance before your office visit.',
-      ],
-      [
-        'Convenient location',
-        'Office at Al Habtoor Business Tower, Dubai Marina / JBR, Floor 35.',
-      ],
-      [
-        'Personal approach',
-        'Service format is tailored to your amount, currency, and request.',
-      ],
+      ['Fast communication', 'Quick Telegram contact with the manager and support until the deal is completed.'],
+      ['Reliable process', 'Exchange terms are agreed in advance before your office visit.'],
+      ['Convenient location', 'Office at Al Habtoor Business Tower, Dubai Marina / JBR, Floor 35.'],
+      ['Personal approach', 'Service format is tailored to your amount, currency, and request.'],
+    ],
+
+    reviewsTitle: 'Client reviews',
+    reviewsText:
+      'Clients choose Prime Dirham Exchange for speed, clear terms, and personal support.',
+    reviewClientLabel: 'Prime Dirham Exchange client',
+    reviews: [
+      ['Alexey', 'I exchanged USDT to AED. Everything was agreed on Telegram in advance, and the rate was confirmed before my visit.'],
+      ['Marina', 'Convenient Dubai Marina location. The manager replied quickly, explained the terms, and helped with the exchange details.'],
+      ['Dmitry', 'I needed to exchange crypto for cash dirhams. Everything was handled smoothly, with no waiting or unnecessary complications.'],
+      ['Saeed', 'I liked the clear process: amount and rate were confirmed first, then I visited the office and completed the exchange.'],
+      ['Omar', 'Fast communication on Telegram, convenient address, and a professional approach. Good crypto exchange service in Dubai.'],
+      ['James', 'The service feels professional. All terms were confirmed in advance, so the office visit was simple and efficient.'],
+      ['Michael', 'Good location near Dubai Marina, quick replies, and clear terms. I would use the service again.'],
     ],
 
     processTitle: 'How it works',
@@ -166,15 +164,7 @@ const content = {
 
     hoursTitle: 'Working hours',
     hoursNote: 'Open Monday to Saturday. Sunday is closed.',
-    days: [
-      'Monday',
-      'Tuesday',
-      'Wednesday',
-      'Thursday',
-      'Friday',
-      'Saturday',
-      'Sunday',
-    ],
+    days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
     closed: 'Closed',
     openUntil: 'Open until 20:30',
 
@@ -199,6 +189,7 @@ const content = {
     navAbout: 'من نحن',
     navCalc: 'الحاسبة',
     navBenefits: 'المزايا',
+    navReviews: 'آراء العملاء',
     navContacts: 'التواصل',
 
     heroTitle: 'برايم درهم للصرافة',
@@ -231,22 +222,24 @@ const content = {
 
     benefitsTitle: 'لماذا يختار العملاء PDE',
     benefits: [
-      [
-        'تواصل سريع',
-        'تواصل مباشر وسريع مع المدير عبر تيليجرام حتى إتمام العملية.',
-      ],
-      [
-        'عملية موثوقة',
-        'يتم الاتفاق على شروط التبادل مسبقاً قبل زيارة المكتب.',
-      ],
-      [
-        'موقع مناسب',
-        'المكتب في Al Habtoor Business Tower، Dubai Marina / JBR، الطابق 35.',
-      ],
-      [
-        'خدمة شخصية',
-        'يتم تحديد طريقة الخدمة حسب المبلغ والعملة وطلب العميل.',
-      ],
+      ['تواصل سريع', 'تواصل مباشر وسريع مع المدير عبر تيليجرام حتى إتمام العملية.'],
+      ['عملية موثوقة', 'يتم الاتفاق على شروط التبادل مسبقاً قبل زيارة المكتب.'],
+      ['موقع مناسب', 'المكتب في Al Habtoor Business Tower، Dubai Marina / JBR، الطابق 35.'],
+      ['خدمة شخصية', 'يتم تحديد طريقة الخدمة حسب المبلغ والعملة وطلب العميل.'],
+    ],
+
+    reviewsTitle: 'آراء العملاء',
+    reviewsText:
+      'يختار العملاء Prime Dirham Exchange بسبب السرعة ووضوح الشروط والدعم الشخصي.',
+    reviewClientLabel: 'عميل Prime Dirham Exchange',
+    reviews: [
+      ['أليكسي', 'بدلت USDT إلى الدرهم. تم الاتفاق على كل شيء عبر تيليجرام مسبقاً وتم تأكيد السعر قبل الزيارة.'],
+      ['مارينا', 'موقع مناسب في دبي مارينا. رد المدير بسرعة وشرح الشروط وساعدني في تفاصيل التبادل.'],
+      ['ديمتري', 'كنت بحاجة إلى تبديل العملات الرقمية إلى دراهم نقدية. تمت العملية بسلاسة وبدون انتظار أو تعقيد.'],
+      ['سعيد', 'أعجبني وضوح العملية: تم تأكيد المبلغ والسعر أولاً، ثم زرت المكتب وتمت العملية بسهولة.'],
+      ['عمر', 'تواصل سريع عبر تيليجرام، عنوان مناسب، وتعامل احترافي. خدمة جيدة لتبادل العملات الرقمية في دبي.'],
+      ['جيمس', 'الخدمة تبدو احترافية. تم تأكيد جميع الشروط مسبقاً، لذلك كانت الزيارة إلى المكتب سهلة وسريعة.'],
+      ['مايكل', 'موقع جيد بالقرب من دبي مارينا، ردود سريعة، وشروط واضحة. سأستخدم الخدمة مرة أخرى.'],
     ],
 
     processTitle: 'كيف تتم العملية',
@@ -259,15 +252,7 @@ const content = {
 
     hoursTitle: 'ساعات العمل',
     hoursNote: 'نعمل من الاثنين إلى السبت. الأحد مغلق.',
-    days: [
-      'الإثنين',
-      'الثلاثاء',
-      'الأربعاء',
-      'الخميس',
-      'الجمعة',
-      'السبت',
-      'الأحد',
-    ],
+    days: ['الإثنين', 'الثلاثاء', 'الأربعاء', 'الخميس', 'الجمعة', 'السبت', 'الأحد'],
     closed: 'مغلق',
     openUntil: 'مفتوح حتى 20:30',
 
@@ -360,7 +345,6 @@ function ExchangeCalculator({ t }) {
 
       const fiat = await fiatRes.json();
       const crypto = await cryptoRes.json();
-
       const next = { USD: 1 };
 
       ['AED', 'EUR', 'RUB'].forEach((code) => {
@@ -462,6 +446,38 @@ function ExchangeCalculator({ t }) {
   );
 }
 
+function ReviewsCarousel({ t }) {
+  return (
+    <section id="reviews" className="section reviewsSection">
+      <div className="reviewsHeader">
+        <div>
+          <div className="pill">★★★★★</div>
+          <h2>{t.reviewsTitle}</h2>
+          <p>{t.reviewsText}</p>
+        </div>
+      </div>
+
+      <div className="reviewsCarousel">
+        {t.reviews.map((review, index) => (
+          <article className="reviewCard" key={`${review[0]}-${index}`}>
+            <div className="reviewTop">
+              <div className="reviewAvatar">{review[0].slice(0, 1)}</div>
+              <div>
+                <strong>{review[0]}</strong>
+                <small>{t.reviewClientLabel}</small>
+              </div>
+            </div>
+
+            <div className="reviewStars">★★★★★</div>
+
+            <p>“{review[1]}”</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function App() {
   const [lang, setLang] = useState('ru');
   const t = content[lang];
@@ -478,6 +494,7 @@ function App() {
           <a href="#about">{t.navAbout}</a>
           <a href="#calculator">{t.navCalc}</a>
           <a href="#benefits">{t.navBenefits}</a>
+          <a href="#reviews">{t.navReviews}</a>
           <a href="#contacts">{t.navContacts}</a>
         </nav>
 
@@ -562,6 +579,8 @@ function App() {
         </div>
       </section>
 
+      <ReviewsCarousel t={t} />
+
       <section className="section process">
         <h2>{t.processTitle}</h2>
 
@@ -631,9 +650,9 @@ function App() {
           />
 
           <a className="mapOpen" href={MAPS_URL} target="_blank" rel="noreferrer">
-  <span>↗</span>
-  <strong>{t.mapButton}</strong>
-</a>
+            <span>↗</span>
+            <strong>{t.mapButton}</strong>
+          </a>
         </div>
       </section>
 
